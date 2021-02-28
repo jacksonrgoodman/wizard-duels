@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Wizard Duels</title>
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    </head>
+
+    <body>
+        <main id="container">
+            <section class="game">
+                <div class="score">
+                    <div class="player-score">
+                        <h2>Player</h2>
+                        <p>0</p>
+                    </div>
+                    <div class="computer-score">
+                        <h2>Computer</h2>
+                        <p>0</p>
+                    </div>
+                </div>
+
+                <div class="intro">
+                    <h1>Wizard Duels</h1>
+                    <button>Let's Go!</button>
+                </div>
+
+                <div class="duel fadeOut">
+                    <h2 class="winner">Choose a spell!</h2>
+                    <div class="hands">
+                        <img class="player-hand" src="./assets/rock.png" alt="">
+                        <img class="computer-hand" src="./assets/rock.png" alt="">
+                    </div>
+                    <div class="options">
+                        <button class="rock">rock</button>
+                        <button class="scissors">scissors</button>
+                        <button class="paper">paper</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script type="module" src="./scripts/main.js"></script>
+    </body>
+</html>
