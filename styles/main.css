@@ -29,7 +29,6 @@ section {
 }
 
 .score {
-	color: red;
 	height: 20vh;
 	display: flex;
 	justify-content: space-around;
@@ -45,6 +44,18 @@ section {
 	padding: 10px;
 	font-size: 25px;
 }
+.player-score, .computer-score {
+	width: 200px;
+	border: 3px solid black;
+	background: burlywood;
+	text-align: center;
+}
+.player-score {
+	color: purple;
+}
+.computer-score {
+	color: red
+}
 
 .intro {
 	height: 50vh;
@@ -53,18 +64,38 @@ section {
 	align-items: center;
 	justify-content: space-around;
 	transition: opacity 0.5s ease;
+	
 }
 
 .intro h1{
-	font-size: 50px;
+	width: 375px;
+	font-size: 45px;
+	background: burlywood;
+	border: 3px solid black;
+	text-align: center;
 }
 
+
+
 .intro button, .match button {
-	width: 150px;
-	height: 50px;
-	font-size: 20px;
+	width: 225px;
+	height: 75px;
+	font-size: 35px;
 	font-family: 'Oldenburg', cursive;
 	cursor: pointer;
+	
+}
+.surrenderButtonBin {
+	display: flex;
+	justify-content: center;
+}
+.surrenderButton {
+	width: 225px;
+	height: 75px;
+	font-size: 35px;
+	font-family: 'Oldenburg', cursive;
+	cursor: pointer;
+	align-items: center;
 }
 
 .duel {
@@ -84,6 +115,19 @@ section {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.options button{
+	width: 225px;
+	height: 75px;
+	font-size: 35px;
+	font-family: 'Oldenburg', cursive;
+	cursor: pointer;
+	align-items: center;
+	display: flex;
+}
+.spellButton {
+	justify-content: space-around;
 }
 
 .player-hand {
